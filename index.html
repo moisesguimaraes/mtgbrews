@@ -2,22 +2,34 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div>
+    <div>
+        <div class="featured">
+            <img src="images/featured-card.png" alt="">
+        </div>
+        <div class="section">
+            <div>
+                <h3>Welcome</h3>
+                <div>
+                    <p>
+                        This is just a place holder, so you can see what the site would look like. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template without linking back to us. You can replace all this text with your own text. You can remove any link to our website from this website template, you're free to use this website template <a href="blog.html" class="more">read more</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h3>want list</h3>
+                <div>
+                    <a href="games.html" class="figure"><img src="images/want.jpg" alt=""></a>
+                    <span><a href="games.html">a.k.a. Beloved Treasures</a></span>
+                </div>
+            </div>
+            <div>
+                <h3>have list</h3>
+                <div>
+                    <a href="media.html" class="figure"><img src="images/have.jpg" alt=""></a>
+                    <span><a href="media.html">a.k.a. Deepest Desires</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
