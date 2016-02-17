@@ -7,19 +7,29 @@
             </a>
             <ul>
                 <li>
-                    <a href="index.html" id="menu1">home</a>
+                    <a href="{{ "/" | prepend:  site.baseurl }}" id="menu1">
+                        home
+                    </a>
                 </li>
                 <li>
-                    <a href="brews/" id="menu2">brews</a>
+                    <a href="{{ "/brews/" | prepend: site.baseurl }}" id="menu2">
+                        brews
+                    </a>
                 </li>
                 <li>
-                    <a href="blog.html" id="menu3">blog</a>
+                    <a href="{{ "/blog.html" | prepend: site.baseurl }}" id="menu3">
+                        blog
+                    </a>
                 </li>
                 <li>
-                    <a href="about.html" id="menu4">about</a>
+                    <a href="{{ "/about.html" | prepend: site.baseurl }}" id="menu4">
+                        about
+                    </a>
                 </li>
                 <li>
-                    <a href="contact.html" id="menu5">contact</a>
+                    <a href="{{ "/contact.html" | prepend: site.baseurl }}" id="menu5">
+                        contact
+                    </a>
                 </li>
             </ul>
         </div>
