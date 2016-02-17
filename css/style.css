@@ -124,8 +124,13 @@ body {
 #body {
     background: url(../images/bg-body-header.png) no-repeat top center;
     margin: 0 auto;
-    padding: 102px 0 0;
+    padding-top: 102px;
     width: 960px;
+}
+
+#body > div {
+    background: url(../images/bg-body-footer.png) no-repeat bottom center;
+    padding-bottom: 114px;
 }
 
 #body p a {
@@ -136,20 +141,15 @@ body {
     color: #a3a3a3;
 }
 
-#body > div {
-    background: url(../images/bg-body-footer.png) no-repeat bottom center;
-    padding: 0 0 114px;
-}
-
 #body > div > div {
     background: url(../images/bg-body2.png) repeat-y top center;
     min-height: 400px;
 }
 
 #body div div .featured {
+    width: 960px;
     height: 145px;
     position: relative;
-    width: 960px;
 }
 
 #body div div .featured img {
@@ -172,7 +172,7 @@ body {
     background: url(../images/border.gif) repeat-x top left;
     float: left;
     margin: 0 10px;
-    padding: 3px 0 0;
+    padding-top: 3px;
     width: 220px;
 }
 
